@@ -1,12 +1,102 @@
-body {
-display: flex;
-font-family: 'Times New Roman', Times, serif;
-margin: 0;
-padding: 0;
+a {
+    text-decoration: none;
 }
 
-.active {
-background-color: blueviolet;
-font-weight: bold;
-justify-content: ;
+
+.navTitle {
+    display: flex;
+    list-style: none;
+    background-color: #a306b6;
+    width: auto;
+    height: 3rem;
+    justify-content: space-evenly;
+    margin: 0;
+    padding-right: 1250px;
+    
+}
+
+.navTitle>li {
+    font-family:G system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+}
+
+.Home {
+    text-decoration: none;
+    background-color: white;
+    padding: 0.5rem;
+}
+
+main {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.boxModel {
+    display: flex;
+    margin-top: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    background-color: rgb(217,217,217); 
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 10px;
+}
+
+.leaveMessage {
+    padding-right: 10rem;
+    margin-top: 3rem;
+}
+
+/* Les différents éléments du "formulaire" */
+.name, .email, .message {
+    padding-right: 19rem;
+}
+
+/* Elément "d'écriture" pour le nom */
+.name1 {
+    color: rgb(217,217,217);
+    background-color: rgb(217,217,217); 
+    height: 2rem;
+    border-radius: 10px;
+    }
+
+    /* Elément "d'écriture" pour l'email */
+.email1 {
+    color: rgb(217,217,217);
+    background-color: rgb(217,217,217);
+    height: 2rem;
+    border-radius: 10px;
+}
+
+/* Elément "d'écriture" pour le message */
+.message1 {
+    color: rgb(217,217,217);
+    background-color: rgb(217,217,217); 
+    height: 10rem;
+    border-radius: 10px;
+}
+
+
+/* "Bouton" pour soumettre le "formulaire" */
+.submit {
+    background-color: #a306b6;
+    color: white;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: grey;
+    color: white;
+    width: auto;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
 }
